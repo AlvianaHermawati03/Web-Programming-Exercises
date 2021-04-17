@@ -1,0 +1,26 @@
+Kegiatan 1
+
+a.	Apakah kegunaan dari function fopen()? Dan jelaskan maksud dari parameter yang ada di dalam function fopen() tersebut!
+Jawab: function fopen() digunakan untuk membuka file atau URL. Adapun parameter yang ada di dalamnya yaitu $namaFile yang merujuk pada myfile.txt berarti menunjukkan file yang akan dibuka, sedangkan parameter “r” adalah perintah untuk hanya membaca isi file yang akan dibuka.
+b.	Apa kegunaan dari function die()?
+Jawab: function die() adalah alias dari fungsi exit(). Fungsi ini digunakan untuk menunjukkan pesan erorr jika suatu kondisi tidak terpenuhi.
+c.	Apa kegunaan dari function fread()? Jelaskan maksud maksud dari parameter yang ada di dalam function fread() tersebut!
+Jawab: function fread() kegunaannya adalah untuk membaca dari file yang dibuka, parameter pertama  berisi nama file yang akan dibaca dan parameter kedua menentukan jumlah byte maksimum untuk dibaca.
+d.	Apa kegunaan dari function fclose()? Bagaimana jika tidak menggunakan function ini setelah operasi file selesai?
+Jawab: function fclose() digunakan untuk menutup file yang terbuka. Jika tidak menggunakan function ini setelah operasi file selesai maka file terbuka akan berkeliaran di server dan menghabiskan sumber daya.
+
+Kegiatan 2
+
+2.	Jalankan script di atas, dan amati hasilnya! Apakah output yang dihasilkan sama dengan script bacafile.php? Jika sama, apa kesimpulannya? Dan jelaskan apa perbedaan cara kerja dari kedua script tersebut!
+Jawab : Output yang dihasilkan sama dengan script bacafile.php,  jadi untuk script ini bisa juga digunakan untuk membaca isi dari sebuah file. Perbedaan cara kerja dari kedua script adalah script yang pertama tidak menggunakan perulangan sedangkan script yang kedua menggunakan perulangan yaitu menggunakan function feof.
+3.	Jelaskan kegunaan dari function berikut ini:
+a.	feof()
+Jawab: Berguna untuk perulangan data yang tidak diketahui panjangnya.
+b.	fgets()
+Jawab: Berguna untuk membaca satu baris dari sebuah file.
+
+Kegiatan 3
+
+3.	Apa kegunaan dari function fwrite()? Fungsi dari fwrite() adalah untuk menulis ke dalam file yang terbuka.
+4.	Apa yang terjadi jika perintah fopen($namaFile, "a") diganti dengan fopen($namaFile, "w")? Yang terjadi adalah tulisan yang sebelumnya ada di dalam file akan dipotong dan yang ditulis adalah yang ada dalam script tersebut.
+
